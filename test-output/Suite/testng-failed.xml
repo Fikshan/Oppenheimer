@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="UITest(failed)">
+    <classes>
+      <class name="ui_tests.UploadCSVCreateHero">
+        <methods>
+          <include name="precondition"/>
+          <include name="postCondition"/>
+          <include name="setUp"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="testUploadCSVCreateHero"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- ui_tests.UploadCSVCreateHero -->
+      <class name="ui_tests.GenerateTaxRelief">
+        <methods>
+          <include name="precondition"/>
+          <include name="setUp"/>
+          <include name="postCondition"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="testGenerateTaxRelief"/>
+        </methods>
+      </class> <!-- ui_tests.GenerateTaxRelief -->
+    </classes>
+  </test> <!-- UITest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

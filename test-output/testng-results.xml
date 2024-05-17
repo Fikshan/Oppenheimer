@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="7" failed="1" skipped="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Failed Report]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-05-17T13:29:43 IST" name="Suite" finished-at="2024-05-17T13:30:07 IST" duration-ms="24014">
+    <groups>
+    </groups>
+    <test started-at="2024-05-17T13:29:43 IST" name="APITest" finished-at="2024-05-17T13:29:52 IST" duration-ms="8861">
+      <class name="api_tests.WorkingClassHeroOwesMoneyTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api_tests.WorkingClassHeroOwesMoneyTests@3c41ed1d]" started-at="2024-05-17T13:29:51 IST" name="setUp" finished-at="2024-05-17T13:29:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:api_tests.WorkingClassHeroOwesMoneyTests@3c41ed1d]" started-at="2024-05-17T13:29:51 IST" name="beforeMethod" finished-at="2024-05-17T13:29:51 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void api_tests.WorkingClassHeroOwesMoneyTests.checkWorkingClassHeroOwesMoney()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="precondition(org.testng.ITestContext)[pri:0, instance:api_tests.WorkingClassHeroOwesMoneyTests@3c41ed1d]" started-at="2024-05-17T13:29:51 IST" name="precondition" finished-at="2024-05-17T13:29:51 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@31dbf5bb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="checkWorkingClassHeroOwesMoney()[pri:0, instance:api_tests.WorkingClassHeroOwesMoneyTests@3c41ed1d]" started-at="2024-05-17T13:29:51 IST" name="checkWorkingClassHeroOwesMoney" finished-at="2024-05-17T13:29:52 IST" duration-ms="1353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkWorkingClassHeroOwesMoney -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:api_tests.WorkingClassHeroOwesMoneyTests@3c41ed1d]" started-at="2024-05-17T13:29:52 IST" name="afterMethod" finished-at="2024-05-17T13:29:52 IST" duration-ms="33" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkWorkingClassHeroOwesMoney status=SUCCESS method=WorkingClassHeroOwesMoneyTests.checkWorkingClassHeroOwesMoney()[pri:0, instance:api_tests.WorkingClassHeroOwesMoneyTests@3c41ed1d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:api_tests.WorkingClassHeroOwesMoneyTests@3c41ed1d]" started-at="2024-05-17T13:29:52 IST" name="postCondition" finished-at="2024-05-17T13:29:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- api_tests.WorkingClassHeroOwesMoneyTests -->
+      <class name="api_tests.VoucherCountTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api_tests.VoucherCountTests@45752059]" started-at="2024-05-17T13:29:50 IST" name="setUp" finished-at="2024-05-17T13:29:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:api_tests.VoucherCountTests@45752059]" started-at="2024-05-17T13:29:50 IST" name="beforeMethod" finished-at="2024-05-17T13:29:50 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void api_tests.VoucherCountTests.checkVoucherCountByPersonType()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="precondition(org.testng.ITestContext)[pri:0, instance:api_tests.VoucherCountTests@45752059]" started-at="2024-05-17T13:29:50 IST" name="precondition" finished-at="2024-05-17T13:29:50 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@31dbf5bb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="checkVoucherCountByPersonType()[pri:0, instance:api_tests.VoucherCountTests@45752059]" started-at="2024-05-17T13:29:50 IST" name="checkVoucherCountByPersonType" finished-at="2024-05-17T13:29:50 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkVoucherCountByPersonType -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:api_tests.VoucherCountTests@45752059]" started-at="2024-05-17T13:29:50 IST" name="afterMethod" finished-at="2024-05-17T13:29:50 IST" duration-ms="20" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkVoucherCountByPersonType status=SUCCESS method=VoucherCountTests.checkVoucherCountByPersonType()[pri:0, instance:api_tests.VoucherCountTests@45752059] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:api_tests.VoucherCountTests@45752059]" started-at="2024-05-17T13:29:50 IST" name="postCondition" finished-at="2024-05-17T13:29:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- api_tests.VoucherCountTests -->
+      <class name="api_tests.CreateWorkingClassHeroesWithVoucherTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api_tests.CreateWorkingClassHeroesWithVoucherTests@34e9fd99]" started-at="2024-05-17T13:29:50 IST" name="setUp" finished-at="2024-05-17T13:29:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:api_tests.CreateWorkingClassHeroesWithVoucherTests@34e9fd99]" started-at="2024-05-17T13:29:50 IST" name="beforeMethod" finished-at="2024-05-17T13:29:50 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void api_tests.CreateWorkingClassHeroesWithVoucherTests.createWorkingClassHeroWithVouchers()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createWorkingClassHeroWithVouchers()[pri:0, instance:api_tests.CreateWorkingClassHeroesWithVoucherTests@34e9fd99]" started-at="2024-05-17T13:29:50 IST" name="createWorkingClassHeroWithVouchers" finished-at="2024-05-17T13:29:50 IST" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWorkingClassHeroWithVouchers -->
+        <test-method is-config="true" signature="precondition(org.testng.ITestContext)[pri:0, instance:api_tests.CreateWorkingClassHeroesWithVoucherTests@34e9fd99]" started-at="2024-05-17T13:29:50 IST" name="precondition" finished-at="2024-05-17T13:29:50 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@31dbf5bb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:api_tests.CreateWorkingClassHeroesWithVoucherTests@34e9fd99]" started-at="2024-05-17T13:29:50 IST" name="afterMethod" finished-at="2024-05-17T13:29:50 IST" duration-ms="20" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createWorkingClassHeroWithVouchers status=SUCCESS method=CreateWorkingClassHeroesWithVoucherTests.createWorkingClassHeroWithVouchers()[pri:0, instance:api_tests.CreateWorkingClassHeroesWithVoucherTests@34e9fd99] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:api_tests.CreateWorkingClassHeroesWithVoucherTests@34e9fd99]" started-at="2024-05-17T13:29:50 IST" name="postCondition" finished-at="2024-05-17T13:29:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:api_tests.CreateWorkingClassHeroesWithVoucherTests@34e9fd99]" started-at="2024-05-17T13:29:50 IST" name="beforeMethod" finished-at="2024-05-17T13:29:50 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void api_tests.CreateWorkingClassHeroesWithVoucherTests.createWorkingClassHeroWithoutVouchers()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="precondition(org.testng.ITestContext)[pri:0, instance:api_tests.CreateWorkingClassHeroesWithVoucherTests@34e9fd99]" started-at="2024-05-17T13:29:50 IST" name="precondition" finished-at="2024-05-17T13:29:50 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@31dbf5bb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="createWorkingClassHeroWithoutVouchers()[pri:0, instance:api_tests.CreateWorkingClassHeroesWithVoucherTests@34e9fd99]" started-at="2024-05-17T13:29:50 IST" name="createWorkingClassHeroWithoutVouchers" finished-at="2024-05-17T13:29:51 IST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWorkingClassHeroWithoutVouchers -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:api_tests.CreateWorkingClassHeroesWithVoucherTests@34e9fd99]" started-at="2024-05-17T13:29:51 IST" name="afterMethod" finished-at="2024-05-17T13:29:51 IST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createWorkingClassHeroWithoutVouchers status=SUCCESS method=CreateWorkingClassHeroesWithVoucherTests.createWorkingClassHeroWithoutVouchers()[pri:0, instance:api_tests.CreateWorkingClassHeroesWithVoucherTests@34e9fd99] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:api_tests.CreateWorkingClassHeroesWithVoucherTests@34e9fd99]" started-at="2024-05-17T13:29:51 IST" name="postCondition" finished-at="2024-05-17T13:29:51 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- api_tests.CreateWorkingClassHeroesWithVoucherTests -->
+      <class name="api_tests.CreateWorkingClassHeroesTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api_tests.CreateWorkingClassHeroesTests@7c7a06ec]" started-at="2024-05-17T13:29:43 IST" name="setUp" finished-at="2024-05-17T13:29:43 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:api_tests.CreateWorkingClassHeroesTests@7c7a06ec]" started-at="2024-05-17T13:29:43 IST" name="beforeMethod" finished-at="2024-05-17T13:29:43 IST" duration-ms="27" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void api_tests.CreateWorkingClassHeroesTests.createWorkingClassHeroWithDuplicateNatId()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="precondition(org.testng.ITestContext)[pri:0, instance:api_tests.CreateWorkingClassHeroesTests@7c7a06ec]" started-at="2024-05-17T13:29:43 IST" name="precondition" finished-at="2024-05-17T13:29:43 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@31dbf5bb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="createWorkingClassHeroWithDuplicateNatId()[pri:0, instance:api_tests.CreateWorkingClassHeroesTests@7c7a06ec]" started-at="2024-05-17T13:29:43 IST" name="createWorkingClassHeroWithDuplicateNatId" finished-at="2024-05-17T13:29:48 IST" duration-ms="4986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWorkingClassHeroWithDuplicateNatId -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:api_tests.CreateWorkingClassHeroesTests@7c7a06ec]" started-at="2024-05-17T13:29:48 IST" name="afterMethod" finished-at="2024-05-17T13:29:49 IST" duration-ms="652" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createWorkingClassHeroWithDuplicateNatId status=SUCCESS method=CreateWorkingClassHeroesTests.createWorkingClassHeroWithDuplicateNatId()[pri:0, instance:api_tests.CreateWorkingClassHeroesTests@7c7a06ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:api_tests.CreateWorkingClassHeroesTests@7c7a06ec]" started-at="2024-05-17T13:29:49 IST" name="postCondition" finished-at="2024-05-17T13:29:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:api_tests.CreateWorkingClassHeroesTests@7c7a06ec]" started-at="2024-05-17T13:29:49 IST" name="beforeMethod" finished-at="2024-05-17T13:29:49 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void api_tests.CreateWorkingClassHeroesTests.createWorkingClassHeroWithValidInput()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="precondition(org.testng.ITestContext)[pri:0, instance:api_tests.CreateWorkingClassHeroesTests@7c7a06ec]" started-at="2024-05-17T13:29:49 IST" name="precondition" finished-at="2024-05-17T13:29:49 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@31dbf5bb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="createWorkingClassHeroWithValidInput()[pri:0, instance:api_tests.CreateWorkingClassHeroesTests@7c7a06ec]" started-at="2024-05-17T13:29:49 IST" name="createWorkingClassHeroWithValidInput" finished-at="2024-05-17T13:29:50 IST" duration-ms="1032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWorkingClassHeroWithValidInput -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:api_tests.CreateWorkingClassHeroesTests@7c7a06ec]" started-at="2024-05-17T13:29:50 IST" name="afterMethod" finished-at="2024-05-17T13:29:50 IST" duration-ms="26" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createWorkingClassHeroWithValidInput status=SUCCESS method=CreateWorkingClassHeroesTests.createWorkingClassHeroWithValidInput()[pri:0, instance:api_tests.CreateWorkingClassHeroesTests@7c7a06ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:api_tests.CreateWorkingClassHeroesTests@7c7a06ec]" started-at="2024-05-17T13:29:50 IST" name="postCondition" finished-at="2024-05-17T13:29:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- api_tests.CreateWorkingClassHeroesTests -->
+    </test> <!-- APITest -->
+    <test started-at="2024-05-17T13:29:52 IST" name="UITest" finished-at="2024-05-17T13:30:07 IST" duration-ms="15090">
+      <class name="ui_tests.GenerateTaxRelief">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ui_tests.GenerateTaxRelief@4b2bac3f]" started-at="2024-05-17T13:30:07 IST" name="setUp" finished-at="2024-05-17T13:30:07 IST" duration-ms="2" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot read the array length because "files" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot read the array length because "files" is null
+at utils.ProjectUtils.deleteFilesInFolder(ProjectUtils.java:151)
+at ui_tests.GenerateTaxRelief.setUp(GenerateTaxRelief.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:ui_tests.GenerateTaxRelief@4b2bac3f]" started-at="2024-05-17T13:30:07 IST" name="beforeMethod" finished-at="2024-05-17T13:30:07 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="precondition(org.testng.ITestContext)[pri:0, instance:ui_tests.GenerateTaxRelief@4b2bac3f]" started-at="2024-05-17T13:30:07 IST" name="precondition" finished-at="2024-05-17T13:30:07 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="testGenerateTaxRelief()[pri:0, instance:ui_tests.GenerateTaxRelief@4b2bac3f]" started-at="2024-05-17T13:30:07 IST" name="testGenerateTaxRelief" finished-at="2024-05-17T13:30:07 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot read the array length because "files" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot read the array length because "files" is null
+at utils.ProjectUtils.deleteFilesInFolder(ProjectUtils.java:151)
+at ui_tests.GenerateTaxRelief.setUp(GenerateTaxRelief.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGenerateTaxRelief -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:ui_tests.GenerateTaxRelief@4b2bac3f]" started-at="2024-05-17T13:30:07 IST" name="afterMethod" finished-at="2024-05-17T13:30:07 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:ui_tests.GenerateTaxRelief@4b2bac3f]" started-at="2024-05-17T13:30:07 IST" name="postCondition" finished-at="2024-05-17T13:30:07 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- ui_tests.GenerateTaxRelief -->
+      <class name="ui_tests.UploadCSVCreateHero">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:ui_tests.UploadCSVCreateHero@4d1c00d0]" started-at="2024-05-17T13:29:42 IST" name="beforeSuite" finished-at="2024-05-17T13:29:43 IST" duration-ms="1417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ui_tests.UploadCSVCreateHero@4d1c00d0]" started-at="2024-05-17T13:29:52 IST" name="setUp" finished-at="2024-05-17T13:29:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:ui_tests.UploadCSVCreateHero@4d1c00d0]" started-at="2024-05-17T13:29:52 IST" name="beforeMethod" finished-at="2024-05-17T13:29:52 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ui_tests.UploadCSVCreateHero.testUploadCSVCreateHero() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="precondition(org.testng.ITestContext)[pri:0, instance:ui_tests.UploadCSVCreateHero@4d1c00d0]" started-at="2024-05-17T13:29:52 IST" name="precondition" finished-at="2024-05-17T13:29:56 IST" duration-ms="3937" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1f19d423]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="testUploadCSVCreateHero()[pri:0, instance:ui_tests.UploadCSVCreateHero@4d1c00d0]" started-at="2024-05-17T13:29:56 IST" name="testUploadCSVCreateHero" finished-at="2024-05-17T13:30:00 IST" duration-ms="4035" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at ui_tests.UploadCSVCreateHero.testUploadCSVCreateHero(UploadCSVCreateHero.java:56)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUploadCSVCreateHero -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:ui_tests.UploadCSVCreateHero@4d1c00d0]" started-at="2024-05-17T13:30:00 IST" name="afterMethod" finished-at="2024-05-17T13:30:00 IST" duration-ms="68" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUploadCSVCreateHero status=FAILURE method=UploadCSVCreateHero.testUploadCSVCreateHero()[pri:0, instance:ui_tests.UploadCSVCreateHero@4d1c00d0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Failed Report]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:ui_tests.UploadCSVCreateHero@4d1c00d0]" started-at="2024-05-17T13:30:00 IST" name="postCondition" finished-at="2024-05-17T13:30:00 IST" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:ui_tests.UploadCSVCreateHero@4d1c00d0]" started-at="2024-05-17T13:30:00 IST" name="beforeMethod" finished-at="2024-05-17T13:30:00 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ui_tests.UploadCSVCreateHero.testUploadErrorCSVCreateHero() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="precondition(org.testng.ITestContext)[pri:0, instance:ui_tests.UploadCSVCreateHero@4d1c00d0]" started-at="2024-05-17T13:30:00 IST" name="precondition" finished-at="2024-05-17T13:30:03 IST" duration-ms="2742" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1f19d423]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="testUploadErrorCSVCreateHero()[pri:0, instance:ui_tests.UploadCSVCreateHero@4d1c00d0]" started-at="2024-05-17T13:30:03 IST" name="testUploadErrorCSVCreateHero" finished-at="2024-05-17T13:30:07 IST" duration-ms="3723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUploadErrorCSVCreateHero -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:ui_tests.UploadCSVCreateHero@4d1c00d0]" started-at="2024-05-17T13:30:07 IST" name="afterMethod" finished-at="2024-05-17T13:30:07 IST" duration-ms="56" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUploadErrorCSVCreateHero status=SUCCESS method=UploadCSVCreateHero.testUploadErrorCSVCreateHero()[pri:0, instance:ui_tests.UploadCSVCreateHero@4d1c00d0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:ui_tests.UploadCSVCreateHero@4d1c00d0]" started-at="2024-05-17T13:30:07 IST" name="postCondition" finished-at="2024-05-17T13:30:07 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- ui_tests.UploadCSVCreateHero -->
+    </test> <!-- UITest -->
+  </suite> <!-- Suite -->
+</testng-results>
